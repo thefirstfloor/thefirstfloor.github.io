@@ -33,6 +33,13 @@
 //     }
 // }
 
+.logo {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+}
+
 // variables.less
 $theme-primary: #90b73e;
 $theme-dark: #242521;
