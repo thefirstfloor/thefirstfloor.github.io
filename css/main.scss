@@ -40,6 +40,13 @@
         margin-bottom: 20px;
 }
 
+aside {
+        display: flex;
+        flex-direction: column; /* Keeps items stacked vertically */
+        align-items: center;    /* Centers items horizontally */
+}
+
+
 // variables.less
 $theme-primary: #90b73e;
 $theme-dark: #242521;
