@@ -1,0 +1,217 @@
+﻿
+
+    Directory: G:\Projecten\test
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+d-----          6/7/2025     19:09                .idea                                                                                                        
+d-----          6/7/2025     19:04                css                                                                                                          
+d-----         5/21/2025     18:59                font-awesome                                                                                                 
+d-----         5/21/2025     18:59                fonts                                                                                                        
+d-----         5/21/2025     18:59                img                                                                                                          
+d-----         5/21/2025     18:59                js                                                                                                           
+d-----          6/7/2025     19:12                _includes                                                                                                    
+d-----          6/7/2025     19:04                _layouts                                                                                                     
+d-----          6/7/2025     19:04                _sass                                                                                                        
+-a----         5/21/2025     18:59             20 .gitignore                                                                                                   
+-a----         5/21/2025     18:59             22 index.html                                                                                                   
+-a----         5/21/2025     18:59          11336 LICENCE                                                                                                      
+-a----         5/21/2025     18:59           1093 LICENSE                                                                                                      
+-a----          6/7/2025     19:13              0 list.txt                                                                                                     
+-a----         5/21/2025     18:59            666 README.md                                                                                                    
+-a----          6/7/2025     19:04            439 _config.yml                                                                                                  
+
+
+    Directory: G:\Projecten\test\.idea
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----          6/7/2025     19:08            205 .gitignore                                                                                                   
+-a----          6/7/2025     19:09            205 indexLayout.xml                                                                                              
+-a----          6/7/2025     19:09            308 projectSettingsUpdater.xml                                                                                   
+-a----          6/7/2025     19:09            172 vcs.xml                                                                                                      
+-a----          6/7/2025     19:08            126 workspace.xml                                                                                                
+
+
+    Directory: G:\Projecten\test\css
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59          53593 animate.min.css                                                                                              
+-a----         5/21/2025     18:59         141414 bootstrap.css                                                                                                
+-a----         5/21/2025     18:59         117150 bootstrap.min.css                                                                                            
+-a----          6/7/2025     19:04            983 main.scss                                                                                                    
+
+
+    Directory: G:\Projecten\test\font-awesome
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+d-----         5/21/2025     18:59                css                                                                                                          
+d-----         5/21/2025     18:59                fonts                                                                                                        
+d-----         5/21/2025     18:59                less                                                                                                         
+d-----         5/21/2025     18:59                scss                                                                                                         
+
+
+    Directory: G:\Projecten\test\font-awesome\css
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59          28747 font-awesome.css                                                                                             
+-a----         5/21/2025     18:59          23739 font-awesome.min.css                                                                                         
+
+
+    Directory: G:\Projecten\test\font-awesome\fonts
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59          60767 fontawesome-webfont.eot                                                                                      
+-a----         5/21/2025     18:59         313398 fontawesome-webfont.svg                                                                                      
+-a----         5/21/2025     18:59         122092 fontawesome-webfont.ttf                                                                                      
+-a----         5/21/2025     18:59          71508 fontawesome-webfont.woff                                                                                     
+-a----         5/21/2025     18:59          56780 fontawesome-webfont.woff2                                                                                    
+-a----         5/21/2025     18:59          93888 FontAwesome.otf                                                                                              
+
+
+    Directory: G:\Projecten\test\font-awesome\less
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59            713 animated.less                                                                                                
+-a----         5/21/2025     18:59            330 bordered-pulled.less                                                                                         
+-a----         5/21/2025     18:59            509 core.less                                                                                                    
+-a----         5/21/2025     18:59            119 fixed-width.less                                                                                             
+-a----         5/21/2025     18:59            465 font-awesome.less                                                                                            
+-a----         5/21/2025     18:59          37290 icons.less                                                                                                   
+-a----         5/21/2025     18:59            370 larger.less                                                                                                  
+-a----         5/21/2025     18:59            377 list.less                                                                                                    
+-a----         5/21/2025     18:59            983 mixins.less                                                                                                  
+-a----         5/21/2025     18:59            770 path.less                                                                                                    
+-a----         5/21/2025     18:59            622 rotated-flipped.less                                                                                         
+-a----         5/21/2025     18:59            476 stacked.less                                                                                                 
+-a----         5/21/2025     18:59          16792 variables.less                                                                                               
+
+
+    Directory: G:\Projecten\test\font-awesome\scss
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59            405 font-awesome.scss                                                                                            
+-a----         5/21/2025     18:59            715 _animated.scss                                                                                               
+-a----         5/21/2025     18:59            332 _bordered-pulled.scss                                                                                        
+-a----         5/21/2025     18:59            513 _core.scss                                                                                                   
+-a----         5/21/2025     18:59            120 _fixed-width.scss                                                                                            
+-a----         5/21/2025     18:59          37883 _icons.scss                                                                                                  
+-a----         5/21/2025     18:59            375 _larger.scss                                                                                                 
+-a----         5/21/2025     18:59            378 _list.scss                                                                                                   
+-a----         5/21/2025     18:59           1000 _mixins.scss                                                                                                 
+-a----         5/21/2025     18:59            783 _path.scss                                                                                                   
+-a----         5/21/2025     18:59            672 _rotated-flipped.scss                                                                                        
+-a----         5/21/2025     18:59            482 _stacked.scss                                                                                                
+-a----         5/21/2025     18:59          16864 _variables.scss                                                                                              
+
+
+    Directory: G:\Projecten\test\fonts
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59          20127 glyphicons-halflings-regular.eot                                                                             
+-a----         5/21/2025     18:59         108738 glyphicons-halflings-regular.svg                                                                             
+-a----         5/21/2025     18:59          45404 glyphicons-halflings-regular.ttf                                                                             
+-a----         5/21/2025     18:59          23424 glyphicons-halflings-regular.woff                                                                            
+-a----         5/21/2025     18:59          18028 glyphicons-halflings-regular.woff2                                                                           
+
+
+    Directory: G:\Projecten\test\img
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+d-----         5/21/2025     18:59                portfolio                                                                                                    
+-a----         5/21/2025     18:59         125976 header.jpg                                                                                                   
+
+
+    Directory: G:\Projecten\test\img\portfolio
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59          63788 1.jpg                                                                                                        
+-a----         5/21/2025     18:59          48101 2.jpg                                                                                                        
+-a----         5/21/2025     18:59          48228 3.jpg                                                                                                        
+-a----         5/21/2025     18:59          49055 4.jpg                                                                                                        
+-a----         5/21/2025     18:59          62334 5.jpg                                                                                                        
+-a----         5/21/2025     18:59          53428 6.jpg                                                                                                        
+
+
+    Directory: G:\Projecten\test\js
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59          66732 bootstrap.js                                                                                                 
+-a----         5/21/2025     18:59          35452 bootstrap.min.js                                                                                             
+-a----         5/21/2025     18:59            875 cbpAnimatedHeader.js                                                                                         
+-a----         5/21/2025     18:59           1835 classie.js                                                                                                   
+-a----         5/21/2025     18:59           1271 creative.js                                                                                                  
+-a----         5/21/2025     18:59           5564 jquery.easing.min.js                                                                                         
+-a----         5/21/2025     18:59           1074 jquery.fittext.js                                                                                            
+-a----         5/21/2025     18:59          95785 jquery.js                                                                                                    
+-a----         5/21/2025     18:59           8182 wow.min.js                                                                                                   
+
+
+    Directory: G:\Projecten\test\_includes
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+d-----          6/7/2025     19:08                .idea                                                                                                        
+-a----          6/7/2025     19:04            891 aside.html                                                                                                   
+-a----          6/7/2025     19:04            839 call-to-action.html                                                                                          
+-a----          6/7/2025     19:04           1612 contact.html                                                                                                 
+-a----          6/7/2025     19:04           1602 head.html                                                                                                    
+-a----          6/7/2025     19:12            563 header.html                                                                                                  
+-a----          6/7/2025     19:04           1495 nav.html                                                                                                     
+-a----         5/21/2025     18:59           4231 portfolio.html                                                                                               
+-a----         5/21/2025     18:59            365 scripts.html                                                                                                 
+-a----          6/7/2025     19:04           2549 services.html                                                                                                
+
+
+    Directory: G:\Projecten\test\_includes\.idea
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----          6/7/2025     19:08            210 .gitignore                                                                                                   
+-a----          6/7/2025     19:08            205 indexLayout.xml                                                                                              
+-a----          6/7/2025     19:08            308 projectSettingsUpdater.xml                                                                                   
+-a----          6/7/2025     19:08            188 vcs.xml                                                                                                      
+-a----          6/7/2025     19:08           3095 workspace.xml                                                                                                
+
+
+    Directory: G:\Projecten\test\_layouts
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----          6/7/2025     19:04            355 front.html                                                                                                   
+
+
+    Directory: G:\Projecten\test\_sass
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----         5/21/2025     18:59           7021 _base.scss                                                                                                   
+-a----          6/7/2025     19:04           1185 _mixins.scss                                                                                                 
+
+
