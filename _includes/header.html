@@ -5,22 +5,20 @@
             <!-- Other HTML content -->
 
             <script>
-                document.addEventListener('DOMContentLoaded', function () {
+                document.addEventListener('DOMContentLoaded', function() {
                     // Get all slides
                     const slides = document.querySelectorAll('.carousel-slide');
 
                     // Check if slides exist before proceeding
                     if (!slides || slides.length === 0) {
-                        console.error('No carousel slides found. Make sure elements with class "carousel-slide" exist in the DOM.');
-                        return; // Exit the function if no slides are found
+                        console.error('No carousel slides found.');
+                        return;
                     }
 
                     const prevBtn = document.querySelector('.prev-btn');
                     const nextBtn = document.querySelector('.next-btn');
                     let currentIndex = 0;
-
-                    // Auto-advance the carousel
-                    let interval = setInterval(nextSlide, 5000); // Change image every 5 seconds
+                    let intervalId = null;
 
                     // Functions to change slides
                     function nextSlide() {
@@ -39,22 +37,39 @@
                         }
                     }
 
-                    // Add event listeners to buttons if they exist
-                    if (prevBtn && nextBtn) {
-                        prevBtn.addEventListener('click', function () {
-                            clearInterval(interval);
-                            prevSlide();
-                            interval = setInterval(nextSlide, 5000);
-                        });
+                    // Start the carousel
+                    function startCarousel() {
+                        intervalId = window.setInterval(nextSlide, 5000);
+                    }
 
-                        nextBtn.addEventListener('click', function () {
-                            clearInterval(interval);
+                    // Stop the carousel
+                    function stopCarousel() {
+                        if (intervalId !== null) {
+                            window.clearInterval(intervalId);
+                            intervalId = null;
+                        }
+                    }
+
+                    // Initialize carousel
+                    startCarousel();
+
+                    // Add event listeners to buttons if they exist
+                    if (prevBtn) {
+                        prevBtn.addEventListener('click', function() {
+                            stopCarousel();
+                            prevSlide();
+                            startCarousel();
+                        });
+                    }
+
+                    if (nextBtn) {
+                        nextBtn.addEventListener('click', function() {
+                            stopCarousel();
                             nextSlide();
-                            interval = setInterval(nextSlide, 5000);
+                            startCarousel();
                         });
                     }
                 });
-
             </script>
             
 
