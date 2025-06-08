@@ -48,6 +48,15 @@
         justify-content: center;
         flex-wrap: wrap;
 }
+
+.myrow.text-center {
+        display: flex;
+        justify-content: center; /* This centers flex items horizontally */
+        margin-left: auto;
+        margin-right: auto;
+        /* Keep other styles for .myrow.text-center */
+}
+
 // variables.less
 $theme-primary: #90b73e;
 $theme-dark: #242521;
