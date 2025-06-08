@@ -5,9 +5,16 @@
             <!-- Other HTML content -->
 
             <script>
-                document.addEventListener('DOMContentLoaded', function() {
+                document.addEventListener('DOMContentLoaded', function () {
                     // Get all slides
                     const slides = document.querySelectorAll('.carousel-slide');
+
+                    // Check if slides exist before proceeding
+                    if (!slides || slides.length === 0) {
+                        console.error('No carousel slides found. Make sure elements with class "carousel-slide" exist in the DOM.');
+                        return; // Exit the function if no slides are found
+                    }
+
                     const prevBtn = document.querySelector('.prev-btn');
                     const nextBtn = document.querySelector('.next-btn');
                     let currentIndex = 0;
@@ -17,40 +24,46 @@
 
                     // Functions to change slides
                     function nextSlide() {
-                        slides[currentIndex].classList.remove('active');
-                        currentIndex = (currentIndex + 1) % slides.length;
-                        slides[currentIndex].classList.add('active');
+                        if (slides.length > 0) {
+                            slides[currentIndex].classList.remove('active');
+                            currentIndex = (currentIndex + 1) % slides.length;
+                            slides[currentIndex].classList.add('active');
+                        }
                     }
 
                     function prevSlide() {
-                        slides[currentIndex].classList.remove('active');
-                        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-                        slides[currentIndex].classList.add('active');
+                        if (slides.length > 0) {
+                            slides[currentIndex].classList.remove('active');
+                            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                            slides[currentIndex].classList.add('active');
+                        }
                     }
 
                     // Add event listeners to buttons if they exist
                     if (prevBtn && nextBtn) {
-                        prevBtn.addEventListener('click', function() {
+                        prevBtn.addEventListener('click', function () {
                             clearInterval(interval);
                             prevSlide();
                             interval = setInterval(nextSlide, 5000);
                         });
 
-                        nextBtn.addEventListener('click', function() {
+                        nextBtn.addEventListener('click', function () {
                             clearInterval(interval);
                             nextSlide();
                             interval = setInterval(nextSlide, 5000);
                         });
                     }
                 });
+
             </script>
             
+
             <div class="carousel-container">
-                <div style="background-image: url('img/header.jpg');"></div>
-                <div style="background-image: url('img/header2.jpg');"></div>
-                <div style="background-image: url('img/header3.jpg');"></div>
+                <div class="carousel-slide active" style="background-image: url('img/header.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('img/header2.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('img/header3.jpg');"></div>
             </div>
-            
+
             <img src="img/logo_1200x640px.png" alt="Thefirstfloor Logo" style="max-width:30%;height:auto;display:block;margin-bottom:20px;">
             <h1>IMMERSIVE MEDIA LAB</h1>
             <p>Freelance developer of interactive digital applications used for and in research, entertaintment, training, education or simular.</p>
