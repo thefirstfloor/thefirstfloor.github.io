@@ -40,10 +40,13 @@
         margin-bottom: 20px;
 }
 
-myrow {
+.myrow {
         display: flex;
         flex-direction: row;
         align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
 }
 // variables.less
 $theme-primary: #90b73e;
