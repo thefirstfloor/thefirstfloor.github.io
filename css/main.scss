@@ -40,6 +40,11 @@
         margin-bottom: 20px;
 }
 
+.myrow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
 // variables.less
 $theme-primary: #90b73e;
 $theme-dark: #242521;
