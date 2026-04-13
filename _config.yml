@@ -11,3 +11,7 @@ bluesky_username: thefirstfloor
 
 # Build settings
 markdown: kramdown
+exclude:
+  - CLAUDE.md
+  - CHANGELOG.md
+  - README.md
